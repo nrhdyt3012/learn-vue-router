@@ -1,10 +1,17 @@
 <template>
-<Home/>
+<Home/> 
 </template>
 
 <script>
-import About from './view/About.vue';
-import Home from './view/Home.vue';
+import About from './views/About.vue';
+import Home from './views/Home.vue';
+
+export default {
+  components: {
+    Home,
+    About
+  }
+};
 </script>
 
 <style lang="scss" scoped>
