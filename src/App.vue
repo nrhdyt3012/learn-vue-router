@@ -1,11 +1,15 @@
 <template>
+    <Nav />
+    <main>
     <RouterView/>
+    </main>
 </template>
 
-<script>
+<script setup>
 import { RouterView } from 'vue-router';
+import Nav from './components/Nav.vue'
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
